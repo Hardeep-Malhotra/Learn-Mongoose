@@ -11,7 +11,8 @@ router.post("/contact", async (req, res) => {
             email: req.body.email,
             Phone_no: req.body.Phone_no
         });
-        console.log(req.body);
+        console.log(contact);
+
 
         await contact.save();
         res.status(201).send("Contact saved successfully ✅");
