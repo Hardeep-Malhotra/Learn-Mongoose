@@ -75,8 +75,6 @@ find
 
 delete
 
-js
-Copy code
 const User = mongoose.model("User", userSchema);
 🧪 Example: Working with Mongoose Schema API
 📂 Step 1: Project Setup
@@ -146,20 +144,17 @@ app.listen(port, () => {
     console.log(`Server is listening on port ${port}`);
 });
 ▶️ Step 3: Run the Application
-bash
-Copy code
+
 node index.js
 Expected output:
 
-pgsql
-Copy code
+
 Server is listening on the port 5000.
 Connected to MongoDB successfully.
 ➕ Step 4: Insert Data
 Send a POST request to:
 
-bash
-Copy code
+
 http://localhost:5000/insertExercise
 You can use:
 
@@ -170,15 +165,13 @@ Postman
 📤 Step 5: Retrieve Data
 Open in browser:
 
-bash
-Copy code
+
 http://localhost:5000/findExercises
 This will return all exercises stored in MongoDB.
 
 🔄 Performing Update Operations in Mongoose
 Example: Update Mobile Price
-js
-Copy code
+
 const newMobile = new Schema({
     name: String,
     price: Number,
