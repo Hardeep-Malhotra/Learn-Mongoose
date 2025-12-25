@@ -21,15 +21,15 @@ model.Query: findOneAndUpdate searches for "John" and updates his data.Callback:
 
  ## 🔍 Types of Mongoose QueriesMongoose provides various built-in methods to perform CRUD operations:
 
- **Model.find()** Returns all documents that match the filter.
- **Model.findOne()** Returns the first document that matches the filter.
- **Model.findById()**Searches for a document specifically by its unique ID.Model.
- **updateOne()**Updates the first document that matches the filter.Model.
-**updateMany()**Updates all documents that match the filter.
- **Model.deleteOne()**Deletes the first document that matches the filter.
- **Model.deleteMany()**Deletes all documents that match the filter.
- **Model.findByIdAndDelete()**Finds a document by ID and deletes it.
- **Model.findOneAndReplace()**Finds a document and replaces it with a new one.
+ ### Model.find()  Returns all documents that match the filter.
+ ### Model.findOne() Returns the first document that matches the filter.
+ ### Model.findById() Searches for a document specifically by its unique ID.Model.
+ ### updateOne() Updates the first document that matches the filter.Model.
+### updateMany() Updates all documents that match the filter.
+ ### Model.deleteOne() Deletes the first document that matches the filter.
+ ### Model.deleteMany() Deletes all documents that match the filter.
+ ### Model.findByIdAndDelete() Finds a document by ID and deletes it.
+ ### Model.findOneAndReplace() Finds a document and replaces it with a new one.
  
  ## 🚀 Step-by-Step Implementation ExampleIn this example, we will create a Student Model, save student records, and update their status based on their age.
 **Step 1:** Initialize ProjectBashnpm init -y
