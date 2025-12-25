@@ -1,6 +1,5 @@
 # 📘 Mongoose Schema API
-
-**Last Updated:** 19 May, 2025  
+ 
 
 Mongoose is a powerful **ODM (Object Document Mapper)** tool for **Node.js**, specifically designed to work with **MongoDB**.  
 It provides an easy way to define data models, interact with the database, and enforce data integrity using schemas.
@@ -55,8 +54,7 @@ Used to define the structure of the data
 
 Takes all entity fields as input (name, age, email, etc.)
 
-js
-Copy code
+
 const userSchema = new mongoose.Schema({
     username: String,
     age: Number,
@@ -78,23 +76,20 @@ delete
 const User = mongoose.model("User", userSchema);
 🧪 Example: Working with Mongoose Schema API
 📂 Step 1: Project Setup
-bash
-Copy code
+
 mkdir mongoose_examples
 cd mongoose_examples
 npm init -y
 npm install mongoose express
 Final folder structure:
 
-pgsql
-Copy code
+
 mongoose_examples/
 │── index.js
 │── package.json
 │── node_modules/
 🧾 Step 2: Create index.js
-js
-Copy code
+
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
