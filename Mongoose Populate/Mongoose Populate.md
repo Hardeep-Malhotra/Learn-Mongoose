@@ -121,15 +121,6 @@ commentSchema.virtual("post", {
 
 
 
-🏁 Summary
-|  |  | 
-| ref |  | 
-| populate() |  | 
-| match |  | 
-| select |  | 
-| options |  | 
-|  |  | 
-
 
 
 ✅ Conclusion
