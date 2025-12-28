@@ -1,6 +1,5 @@
 # Mongoose Validation
 
-**Last Updated : 22 Sep, 2025**
 
 Mongoose validation is a middleware that runs before a document is saved to the database. It automatically validates data based on rules defined in the schema, ensuring that all fields meet the specified requirements. If the data doesn't meet the validation criteria, an error is thrown, preventing the document from being saved.
 
