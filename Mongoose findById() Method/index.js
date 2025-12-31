@@ -3,7 +3,7 @@
 const mongoose = require("mongoose");
 
 // 1️⃣ Database connection
-mongoose.connect("mongodb://127.0.0.1:27017/geeksforgeeks")
+mongoose.connect("mongodb://127.0.0.1:27017/userdatabase")
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.log("Connection Error:", err));
 
