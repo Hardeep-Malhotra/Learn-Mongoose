@@ -45,7 +45,7 @@ This repo is structured as a **hands-on reference lab** covering:
 - Virtual properties for computed fields  
 
 ### 5️⃣ Populate & Referencing
-- Referencing documents across collections  
+- Referencing documents across collection's  
 - Using `populate()` for **relational-like behavior** in MongoDB  
 
 ### 6️⃣ Middleware, Hooks & Plugins
