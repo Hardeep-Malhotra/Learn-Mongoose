@@ -1,6 +1,6 @@
 # 🧩 Learn-Mongoose — Complete Practical Guide to Mongoose ODM
 
-A comprehensive, example-driven repository to master **Mongoose** with **MongoDB** in Node.js applications.
+A comprehensive, example-driven repository to master **Mongoose** with **MongoDB** in Node.js application's.
 
 This repo is structured as a **hands-on reference lab** covering:
 
