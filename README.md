@@ -26,7 +26,7 @@ This repo is structured as a **hands-on reference lab** covering:
 - Local and Atlas connection setup  
 - Understanding the Mongoose connection object  
 
-### 2️⃣ Schema API, SchemaTypes & Options
+### 2️⃣ Schema API, SchemaType's & Options
 - Defining schemas with `mongoose.Schema`  
 - Field types: `String`, `Number`, `Boolean`, `Date`, `Array`, `ObjectId`, etc.  
 - Schema options for **strict data integrity**  
