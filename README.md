@@ -7,7 +7,7 @@ This repo is structured as a **hands-on reference lab** covering:
 - Schemas, Models, Queries  
 - Validation, Indexes, Virtuals  
 - Population & Referencing  
-- Middleware, Hooks & Plugins  
+- Middleware, Hooks & Plugin's  
 - Transactions & Aggregation  
 - CRUD Apps, Pagination, Authentication  
 - File upload & retrieval examples  
