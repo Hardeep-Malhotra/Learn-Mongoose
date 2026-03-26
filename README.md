@@ -10,7 +10,7 @@ This repo is structured as a **hands-on reference lab** covering:
 - Middleware, Hooks & Plugin's  
 - Transactions & Aggregation  
 - CRUD Apps, Pagination, Authentication  
-- File upload & retrieval examples  
+- File upload & retrieval example's  
 
 💡 **Learn Mongoose by building and running focused examples for every major API.**
 
